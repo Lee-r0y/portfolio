@@ -449,10 +449,10 @@ h1{
 html{
     scroll-behavior: smooth;
 }
-.bio-page{
-    background: #333;
+.biography-page{
+    background-color: #333;
     color: white;
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: center;
 }
 .bio-header-line{
@@ -460,13 +460,15 @@ html{
     height: 3px;
     background: blueviolet;
     margin: 0 auto 20px;
+    text-align: center;
 }
 .bio-page-title{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 40px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .bio-main-image{
@@ -478,7 +480,7 @@ html{
 }
 .bio-main-image img{
     width: 100%;
-    height: auto;
+    height: 90vh;
     max-width: 1100px;
     object-fit: cover;
     display: block;
@@ -487,20 +489,21 @@ html{
     object-position: top;
 }
 .bio-content{
-    max-width: 750px;
+    max-width: 600px;
     margin: auto;
+    padding: 0 20px;
 }
 .bio-content h2{
     font-size: 30px;
     margin-bottom: 30px;
-    color: black;
+    color: wheat;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 .bio-content p{
     line-height: 1.7;
     margin-bottom: 18px;
-    color: black;
+    color: white;
     text-align: left;
 }
 .awards-section{
@@ -547,7 +550,7 @@ html{
     max-width: 750px;
 }
 .bio-content-end p{
-    color: black;
+    color: white;
     margin-bottom: 20px;
     text-align: left;
     line-height: 1.7;
@@ -629,12 +632,14 @@ html{
     font-size: 40px;
     color: black;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .gallery-content{
     max-width: 600px;
     margin: 0 auto 60px;
     color: black;
     line-height: 1.6;
+    font-size: 20px;
 }
 .work-gallery-grid{
     display: grid;
@@ -655,9 +660,9 @@ html{
     margin-bottom: 30px;
 }
 .testimonial-feedback{
-    font-size: 18;
+    font-size: 20px;
     line-height: 1.6;
-    color: gray;
+    color: black;
     margin-top: 20px;
 }
 
