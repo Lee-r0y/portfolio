@@ -758,7 +758,7 @@ html{
 
     /* NAVBAR */
     .navbar{
-        flex-direction: column;
+        flex-direction: row;
         padding: 20px;
         margin-top: 0;
         gap: 20px;
