@@ -9,6 +9,7 @@ body{
     background: #FFFDD0;
     color: black;
     padding: 0px;
+    overflow-x: auto;
 }
 
 header{
@@ -762,6 +763,7 @@ html{
         padding: 20px;
         margin-top: 0;
         gap: 10px;
+        overflow-x:auto
     }
 
     .navbar ul{
@@ -782,7 +784,8 @@ html{
     .bio-container{
         flex-direction: row;
         padding: 20px;
-        max-width:750px
+        max-width:750px;
+        overflow-x: auto;
     }
 
     .bio-left,
@@ -808,7 +811,7 @@ html{
     .album-grid{
         flex-direction: column;
         gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) 
     }
 
     .album-card img{
@@ -823,7 +826,7 @@ html{
 
     /* FOOTER */
     .footer-info{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         text-align: center;
     }
 
