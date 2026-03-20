@@ -780,7 +780,7 @@ html{
 
     /* BIO SECTION */
     .bio-container{
-        flex-direction: column;
+        flex-direction: row;
         padding: 20px;
     }
 
