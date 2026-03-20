@@ -761,11 +761,11 @@ html{
         flex-direction: row;
         padding: 20px;
         margin-top: 0;
-        gap: 20px;
+        gap: 10px;
     }
 
     .navbar ul{
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
