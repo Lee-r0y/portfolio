@@ -826,13 +826,14 @@ html{
 
     /* FOOTER */
     .footer-info{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(1fr)
         text-align: center;
+        flex-direction: column;
     }
 
     /* CONTACT */
     .contact-container{
-        flex-direction: row;
+        flex-direction: column;
         padding: 20px;
     }
 
